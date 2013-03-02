@@ -2,12 +2,13 @@ appbuildr-java-rest-webapp
 ==========================
 
 Author: Andreas Siebert
+-- not stable.
 
-Prototype for a java-based app.
+##Description
+Extension for code-generator tool called appbuidr (https://github.com/drdrej/app-buildr.git).
 
-Example how to use appbuildr - a use-case.
-
-
+This extension contains transformrs and templates to create a simple a java-based app.
+You can use it as an example - a use-case.
 
 ##License: 
 MIT License (MIT).
