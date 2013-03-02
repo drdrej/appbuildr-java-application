@@ -1,5 +1,5 @@
-appbuildr-java-rest-webapp
-==========================
+appbuildr-java-app
+==================
 
 Author: Andreas Siebert
 -- not stable.
