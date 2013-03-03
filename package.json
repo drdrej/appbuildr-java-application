@@ -1,6 +1,6 @@
 {
   "name": "appbuildr-java-app",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "extension for appbuildr to build java-apps.",
   "main": "index.js",
   "scripts": {

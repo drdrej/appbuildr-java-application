@@ -25,17 +25,24 @@ IN THE SOFTWARE.
 /**
  * @author: Andreas Siebert
  */
+
+
 module.exports = {
 	modelVersion : 1,
 
 	query : ".project > .app",
 	desc : "Create basic project-structure",
-
-	need : {
-		app: {
-			pckg : "com.example.pckg"
-		}
-	},
+	
+	/**
+	 * Validate before execute.
+	 */
+	validate : schema({                    
+		  app : {
+			  name : String,
+			  pckg : String
+		  }
+	}),
+	
 	
 	bind : function(app, model) {
 		var fm = model.vfs;
